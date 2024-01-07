@@ -22,10 +22,13 @@ DB 접근권한 설정 및 계정 생성
 - sudo nano mysqld.cnf     --> bind-address를 127.0.0.1 을 0.0.0.0
 - mysql -u root -p
 - create user '유저이름'@'%' identified by '비밀번호';
-### 4. jar파일 생성 및 배포
+- grant all privileges on *.* to '유저이름'@'%' with grant option;
+### 4. 로컬에서 인스턴스 DB에 연결
+
+### 5. jar파일 생성 및 배포
 <img src="/pictures/aws4.png">
 sftp(filezila)연결 후 jar파일 배포
-### 5. 인스턴스에서 배포된 서버에 로컬 컴퓨터로 접속
+### 6. 인스턴스에서 배포된 서버에 로컬 컴퓨터로 접속
 <img src="/pictures/aws5.png">
 
 
