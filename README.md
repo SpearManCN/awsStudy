@@ -6,9 +6,9 @@ aws 공부
 ### 1. aws 회원가입 및 인스턴스 생성
 <img src="/pictures/aws1.png">
 ### 2. 보안 설정과 키페어 생성
-사진.
+<img src="/pictures/aws2.png">
 ### 3. ssh(putty)로 접속 후 java와 db설치
-사진.
+<img src="/pictures/aws3.png">
 Putty 로 호스트, port, data(id), 키페어 입력 후 접속
 인스턴스 내 패키지 최신화
 - sudo apt-get update
@@ -23,10 +23,10 @@ DB 접근권한 설정 및 계정 생성
 - mysql -u root -p
 - create user '유저이름'@'%' identified by '비밀번호';
 ### 4. jar파일 생성 및 배포
-사진.
+<img src="/pictures/aws4.png">
 sftp(filezila)연결 후 jar파일 배포
 ### 5. 인스턴스에서 배포된 서버에 로컬 컴퓨터로 접속
-
+<img src="/pictures/aws5.png">
 
 
 
