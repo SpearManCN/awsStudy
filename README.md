@@ -4,7 +4,7 @@ aws 공부
 ## 목표 1 - ec2로 내 프로젝트 배포해보고 내 로컬 컴퓨터로 접속해보기
 ## 진행 순서
 ### 1. aws 회원가입 및 인스턴스 생성
-<img src="../picture/aws1.png">
+<img src="awsStudy/picture/aws1.png">
 ### 2. 보안 설정과 키페어 생성
 사진.
 ### 3. ssh(putty)로 접속 후 java와 db설치
